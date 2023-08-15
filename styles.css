@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    gap: 30%;
+}
+
+h3{
+    font-size: 2rex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(40, 121, 121);
+}
+
+.nav-item{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    color: rgb(34, 32, 30);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 32, 30);
+}
+
+a:hover{
+    color: rgb(78, 129, 129);
+}
+
+main{
+    min-height: calc(100vh - 3em);
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    
+}
+span{
+    background-color: rgba(0, 0, 0,0.8);
+    height: 70px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+#color{
+    background-color: transparent;
+    padding-right: 20px;
+    color: rgba(46, 46, 199, 0.788);
+    font-family: sans-serif;
+}
+
+button{
+    margin-top: 5%;
+    /* width: 20%; */
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+body{
+    background-color: blue;
+}
